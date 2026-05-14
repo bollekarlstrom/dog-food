@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Dog Food Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="brand">
+                <p class="eyebrow">Dog food store</p>
+                <h1>Nordic Dog Food Co.</h1>
+            </div>
+
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="visually-hidden">Open navigation</span>
+            </button>
+
+            <nav id="main-nav" class="site-nav">
+                <a href="#hours">Opening hours</a>
+                <a href="#photos">Dogs</a>
+                <a href="#special">This week</a>
+                <a href="#location">Location</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <p class="intro">Healthy food for happy dogs, with a calm Scandinavian feel.</p>
+            </section>
+
+            <section id="hours" class="info-grid">
+                <div class="card">
+                    <h2>Opening hours</h2>
+                    <ul>
+                        <li>Mon – Fri: 10:00 – 18:00</li>
+                        <li>Saturday: 10:00 – 16:00</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2 id="location">Visit us</h2>
+                    <p>Dog Food Store<br>Storgata 12<br>Oslo, Norway</p>
+                </div>
+            </section>
+
+            <section id="photos" class="photos">
+                <h2>Our dogs</h2>
+                <div class="photo-grid">
+                    <img src="dog1.jpg" alt="Happy dog by a window">
+                    <img src="dog2.jpg" alt="Calm dog in a light room">
+                </div>
+            </section>
+
+            <section id="special" class="special-card card">
+                <div class="special-text">
+                    <p class="eyebrow">This week’s special</p>
+                    <h2>Salmon & Oats Mix</h2>
+                    <p>Balanced food for active dogs with a sensitive stomach.</p>
+                    <p class="price">249 NOK / 2 kg</p>
+                </div>
+                <img src="special.jpg" alt="This week special dog food package">
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
