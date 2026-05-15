@@ -1,6 +1,6 @@
 :root {
     color-scheme: light;
-    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #2e3940;
     background: #f7f5f0;
 }
@@ -32,6 +32,7 @@ body {
 
 .brand h1 {
     margin: 0;
+    font-family: "Engraved Academy", serif;
     font-size: clamp(2rem, 4vw, 3rem);
     line-height: 1.05;
 }
